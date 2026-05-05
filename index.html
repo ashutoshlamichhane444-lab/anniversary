@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our 10 Month Anniversary | Netflix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Section 1: Cinematic Netflix Intro -->
+    <div id="intro" class="screen">
+        <div class="intro-wrapper">
+            <h1 class="netflix-animation" data-text="N">N</h1>
+            <div class="intro-message">
+                <p class="fade-text">A special story for a special person...</p>
+                <div class="romantic-loader"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 2: Who's Watching -->
+    <div id="profile-screen" class="screen hidden">
+        <h1 class="romantic-title">Kaluuuuuuuu?</h1>
+        <div class="profile-container">
+            <div class="profile" onclick="showMain()">
+                <div class="avatar" style="background-image: url('profile_pic.jpeg');"></div>
+                <p class="click-here">Click here my kalauti ❤️</p>
+            </div>
+        </div>
+        <div class="anniversary-badge">10 Months of Us</div>
+    </div>
+
+    <!-- Section 3: Main Dashboard -->
+    <div id="main-dashboard" class="screen hidden">
+        <div class="hero">
+            <video autoplay muted loop id="hero-video">
+                <source src="WhatsApp Video 2026-05-05 at 10.53.25 PM.mp4" type="video/mp4">
+            </video>
+            <div class="hero-overlay">
+                <h2 class="title-text">Life of Asmita & Ashutosh</h2>
+                <div class="hero-btns">
+                    <button class="play-btn">▶ Play</button>
+                    <button class="info-btn">ⓘ More Info</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
